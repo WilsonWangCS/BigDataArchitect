@@ -26,3 +26,26 @@ public class HiveJdbcClient {
 		}
 	}
 }
+
+class HiveJdbcClinen{
+	private static String driverName = "org.apache.hive.jdbc.HiveDriver";
+	public static void  main() throws SQLException{
+		try {
+			Class.forName(driverName);
+
+			Connection con = DriverManager.getConnection("jdbc:hive2://node04:10000/default", "root", "");
+			Statement statement = con.createStatement();
+			String sql = "select * from psn limit 5";
+
+			ResultSet res  = statement.executeQuery(sql);
+
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+
+
+}

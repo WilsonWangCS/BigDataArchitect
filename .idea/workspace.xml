@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5970735-b227-4cf9-a656-bd146d219b83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spark/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/java/com/msb/bigdata/spark/WordCountJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson00_Object_Class.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson02_Functions.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson03_Collections.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson04_trait.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson05_case_class.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson06_match.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson07_PartialFunction.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/Lesson08_implicit.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/scala/TestJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/WordCountScala.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/lesson01_rdd_api01.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/lesson02_rdd_api_sort.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/lesson03_rdd_aggregator.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/lesson04_rdd_partitions.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/src/main/scala/com/msb/bigdata/spark/lesson05_rdd_gaoji.scala" beforeDir="false" />
+    <list default="true" id="f5970735-b227-4cf9-a656-bd146d219b83" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/BigDataArchitect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BigDataArchitect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-hadoop/bigdata-hadoop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-hadoop/bigdata-hadoop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-hadoop/hadoop-install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-hadoop/hadoop-install.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala_test/TestScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala_test/TestScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/target/classes/META-INF/bigdata-spark.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_hive/code/hivedemo/src/com/mashibing/HiveJdbcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_hive/code/hivedemo/src/com/mashibing/HiveJdbcClient.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/bigdata-redis/target/" />
+    <ignored path="$PROJECT_DIR$/bigdata-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/bigdata-hadoop/target/" />
+    <ignored path="$PROJECT_DIR$/bigdata-spark/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,106 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/images/远程元数据服务安装.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/images/远程数据库模式安装.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/06 HiveServer2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="200">
+                <caret line="10" column="52" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/04 Hive基本SQL操作.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="424">
+                <caret line="176" column="35" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/01 Hive的基本介绍.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="451">
+                <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hiveserver2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/08 Hive参数操作和运行方式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="328">
+                <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/12 Hive优化.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="124">
+                <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/07 Hive函数.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="396">
+                <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigdata_hive/code/hivedemo/src/com/mashibing/HiveJdbcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,8 +138,54 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>application</find>
+      <find>JDK_1_8</find>
+      <find>向前兼容，没有过多的改NN，二是通过新增了角色 zkfc</find>
+      <find>file://$MODULE_DIR$/target/test-classes</find>
+      <find>inheritedJdk</find>
+      <find>sourceFolder</find>
+      <find>forTests</find>
+      <find>false</find>
+      <find>org.apache.hadoop:hadoop-client</find>
+      <find>commons-collections</find>
+      <find>3.2.2</find>
+      <find>mapreduce</find>
+      <find>client</find>
+      <find>core</find>
+      <find>hadoop-mapreduce-client-core</find>
+      <find>hadoop-yarn-common</find>
+      <find>2.6.5</find>
+      <find>level</find>
+      <find>1.2.0</find>
+      <find>project</find>
+      <find>javax.activation:javax.activation-api</find>
+      <find>javax.servlet:servlet-api:2.5</find>
+      <find>最终去开发MR计算程序</find>
+      <find>会根据</find>
+      <find>hdfs</find>
+      <find>max</find>
+      <find>minSize</find>
+      <find>字节码</find>
+      <find>println</find>
+      <find>Hive中为了提高SQL语句的执行效率</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bigdata-hadoop/hadoop-install.txt" />
+        <option value="$PROJECT_DIR$/bigdata-hadoop/bigdata-hadoop.iml" />
+        <option value="$PROJECT_DIR$/bigdata-spark/src/main/scala_test/TestScala.scala" />
+        <option value="$PROJECT_DIR$/bigdata_hive/code/hivedemo/src/com/mashibing/HiveJdbcClient.java" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -61,8 +204,6 @@
       <MavenImportingSettings>
         <option name="createModuleGroups" value="true" />
         <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="#JAVA_HOME" />
-        <option name="vmOptionsForImporter" value="-Xmx1768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -72,9 +213,110 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectId" id="1SRgb8mHG25sjSD7ktDW6WDcf8J" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata-zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="hivedemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="HiveJdbcClient.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigDataArchitect" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata_hive" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigDataArchitect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -90,14 +332,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bigdata-spark/src/main" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598436593208" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.45172414" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -136,23 +379,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountJava">
+  <component name="RunManager" selected="Application.TestScala">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.zookeeper.App" />
-      <module name="bigdata-zookeeper" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,6 +396,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestScala" />
+      <module name="bigdata-spark" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,18 +485,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyFof" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.TestLock" />
       <item itemvalue="Application.ooxx" />
       <item itemvalue="Application.WordCountJava" />
+      <item itemvalue="Application.TestScala" />
+      <item itemvalue="JUnit.TestLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestScala" />
         <item itemvalue="Application.WordCountJava" />
         <item itemvalue="Application.ooxx" />
         <item itemvalue="Application.MyFof" />
         <item itemvalue="JUnit.TestLock" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +524,15 @@
       <workItem from="1571552238794" duration="769000" />
       <workItem from="1571567380976" duration="3285000" />
       <workItem from="1571681327490" duration="2239000" />
+      <workItem from="1593519052857" duration="597000" />
+      <workItem from="1593522183184" duration="2874000" />
+      <workItem from="1594193590316" duration="4099000" />
+      <workItem from="1594354662199" duration="223000" />
+      <workItem from="1594709916975" duration="23244000" />
+      <workItem from="1595824403746" duration="630000" />
+      <workItem from="1595927014766" duration="8082000" />
+      <workItem from="1596694947343" duration="350000" />
+      <workItem from="1598237301529" duration="7759000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1571545803904</created>
@@ -305,6 +551,48 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47858000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970297" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32970297" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -314,16 +602,377 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/data/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-redis/IMAGE/02REDIS集群知识点.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-redis/IMAGE/02REDIS集群知识点.pos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-redis/IMAGE/01Redis前无古人后无来者.pos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret column="78293" selection-start-column="78293" selection-end-column="78293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-redis/IMAGE/01Redis前无古人后无来者.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-redis/src/main/java/com/msb/spring/redis/demo/MyTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/bigdata-hadoop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-hadoop/hadoop-install.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18282">
+          <caret line="831" column="40" selection-start-line="831" selection-start-column="40" selection-end-line="831" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/scala.mmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/SCALA.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/java/com/msb/bigdata/spark/WordCountJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/scala/com/msb/bigdata/scala/Lesson00_Object_Class.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/scala/com/msb/bigdata/scala/Lesson01_IF_WHILE_FOR.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/scala/com/msb/bigdata/scala/Lesson05_case_class.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/scala/com/msb/bigdata/scala/Lesson03_Collections.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="130" column="12" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata-spark/src/main/scala_test/TestScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/delete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hive HA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hive hwi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hive授权模型.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hive架构图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/OLAP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/orc文件格式.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/parquet文件格式.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/transaction_limitations.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/update.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/本地数据库模式安装.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/行式存储与列式存储.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/访问流程图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/远程元数据服务安装.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/远程数据库模式安装.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/06 HiveServer2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="10" column="52" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/04 Hive基本SQL操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="424">
+            <caret line="176" column="35" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/01 Hive的基本介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="451">
+            <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/images/hiveserver2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/07 Hive函数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/code/hivedemo/src/com/mashibing/HiveJdbcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/08 Hive参数操作和运行方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="328">
+            <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata_hive/notes/12 Hive优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="124">
+            <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45172414" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Invalid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45172414" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BigDataArchitect</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45172414" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45172414" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

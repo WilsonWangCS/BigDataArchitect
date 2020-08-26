@@ -482,7 +482,7 @@ fs.defaultFs -> hdfs://node01:9000
 	6）初始化：
 		1）先启动JN   hadoop-daemon.sh start journalnode 
 		2）选择一个NN 做格式化：hdfs namenode -format   <只有第一次搭建做，以后不用做>
-		3)启动这个格式化的NN ，以备另外一台同步  hadoop-daemon.sh start namenode 
+		3)启动这个格式化的NN ，以备另外一台同步  hadoop-daemon.sh start namenode
 		4)在另外一台机器中： hdfs namenode -bootstrapStandby
 		5)格式化zk：   hdfs zkfc  -formatZK     <只有第一次搭建做，以后不用做>
 		6) start-dfs.sh	
@@ -541,7 +541,7 @@ hdfs是一个文件系统
 			passwd god
 		2）讲资源与用户绑定（a,安装部署程序；b,数据存放的目录）
 			chown -R god  src
-			chown -R god /opt/bigdata/hadoop-2.6.5
+			chown -R god /opt/bigdata`/hadoop-2.6.5
 			chown -R god /var/bigdata/hadoop
 		3）切换到god去启动  start-dfs.sh  < 需要免密
 			给god做免密
@@ -636,7 +636,7 @@ windows idea eclips  叫什么：  集成开发环境  ide 你不需要做太多
 	搭建：
 			   NN	NN	JN	ZKFC	ZK	DN	RM	NM
 		node01	    *		*	*
-		node02		*	*	*	*	 *		*
+		node02		*	*	*	*	  *	 	*
 		node03			*		*	 *	 *	*
 		node04					*	 *	 *	*
 	
@@ -1047,6 +1047,9 @@ rw- --- ---
 110 000 000   600
 
 
+mapreduce:
+    1、框架中默认的reduce数量为1
+    2、java的设计模式
 
 
 
