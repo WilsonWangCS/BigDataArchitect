@@ -14,14 +14,14 @@
 	默认：true
 --hive的动态分区模式
 	set hive.exec.dynamic.partition.mode=nostrict;
-	默认：strict（至少有一个分区列是静态分区）
+	默认：strict（至少有一个分区列是静态分区） 
 --每一个执行mr节点上，允许创建的动态分区的最大数量(100)
 	set hive.exec.max.dynamic.partitions.pernode;
 --所有执行mr节点上，允许创建的所有动态分区的最大数量(1000)	
 	set hive.exec.max.dynamic.partitions;
 --所有的mr job允许创建的文件的最大数量(100000)	
 	set hive.exec.max.created.files;
-```
+``` 
 
 ##### 		3、hive动态分区语法
 
@@ -50,8 +50,11 @@
 ##### 		2、Hive分桶的配置
 
 ```sql
---设置hive支持分桶
+--设置hive支持分桶 2.0之后就没有了这个参数，默认是支持分桶操作的
 	set hive.enforce.bucketing=true;
+--设置为true之后，me运行时会根据bucket的个数，自动分配reduce task个数
+--一次作业产生的桶（文件数量）和reduce task个数一直
+	
 ```
 
 ##### 		3、Hive分桶的抽样查询
@@ -65,3 +68,8 @@
 		y：必须为该表总bucket数的倍数或因子
 ```
 
+##### 		4、Hive分桶的抽样查询
+如何知道sql的执行计划
+```sql
+explain [extended] sql;
+```

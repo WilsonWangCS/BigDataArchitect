@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/bigdata-redis/bigdata-redis.iml" filepath="$PROJECT_DIR$/bigdata-redis/bigdata-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" filepath="$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml" filepath="$PROJECT_DIR$/bigdata-zookeeper/bigdata-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-hbase-test/bigdatahbasetest.iml" filepath="$PROJECT_DIR$/bigdata-hbase-test/bigdatahbasetest.iml" />
     </modules>
   </component>
 </project>

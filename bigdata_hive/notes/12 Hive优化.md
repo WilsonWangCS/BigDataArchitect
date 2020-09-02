@@ -45,7 +45,7 @@ set hive.exec.mode.local.auto.inputbytes.max=128M
 ​		在SQL语句足够复杂的情况下，可能在一个SQL语句中包含多个子查询语句，且多个子查询语句之间没有任何依赖关系，此时，可以Hive运行的并行度
 
 ```sql
---设置Hive SQL的并行度
+--设置Hive SQL的并行度，设置为并行模式
 set hive.exec.parallel=true;
 ```
 
@@ -63,6 +63,15 @@ set hive.exec.parallel.thread.number
 ```sql
 -- 设置Hive的严格模式
 set hive.mapred.mode=strict;
+
+
+-- 为hive开启动态分区
+set hive.exec.dynamici.partition=true;
+--动态分区允许所有的分区都是动态的
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+
+insert into table dptest partition(age=1,sex) select id,name,likes,address frin psn;
 ```
 
 ​		注意：当设置严格模式之后，会有如下限制：
@@ -106,14 +115,14 @@ set hive.auto.convert.join = true;
 --相关配置参数：
 hive.mapjoin.smalltable.filesize;  
 --（大表小表判断的阈值，如果表的大小小于该值则会被加载到内存中运行）
-hive.ignore.mapjoin.hint；
+hive.ignore.mapjoin.hint;
 --（默认值：true；是否忽略mapjoin hint 即mapjoin标记）
 ```
 
 ​		4、大表join大表
 
 ​		（1）空key过滤：有时join超时是因为某些key对应的数据太多，而相同key对应的数据都会发送到相同的reducer上，从而导致内存不够。此时我们应该仔细分析这些异常的key，很多情况下，这些key对应的数据是异常数据，我们需要在SQL语句中进行过滤。
-​		（2）空key转换：有时虽然某个key为空对应的数据很多，但是相应的数据不是异常数据，必须要包含在join的结果中，此时我们可以表a中key为空的字段赋一个随机的值，使得数据随机均匀地分不到不同的reducer上
+​		（2）空key转换：有时虽然某个key为空对应的数据很多，但是相应的数据不是异常 数据，必须要包含在join的结果中，此时我们可以表a中key为空的字段赋一个随机的值，使得数据随机均匀地分不到不同的reducer上
 
 ### 8、Map-Side聚合	
 
@@ -124,13 +133,13 @@ hive.ignore.mapjoin.hint；
 set hive.map.aggr=true;
 --相关配置参数：
 --map端group by执行聚合时处理的多少行数据（默认：100000）
-hive.groupby.mapaggr.checkinterval： 
+hive.groupby.mapaggr.checkinterval; 
 --进行聚合的最小比例（预先对100000条数据做聚合，若聚合之后的数据量/100000的值大于该配置0.5，则不会聚合）
-hive.map.aggr.hash.min.reduction： 
+hive.map.aggr.hash.min.reduction;
 --map端聚合使用的内存的最大值
-hive.map.aggr.hash.percentmemory： 
+hive.map.aggr.hash.percentmemory; 
 --是否对GroupBy产生的数据倾斜做优化，默认为false
-hive.groupby.skewindata
+hive.groupby.skewindata;
 ```
 
 ### 9、合并小文件
@@ -144,7 +153,7 @@ set hive.merge.mapfiles=true
 --是否合并reduce输出文件：
 set hive.merge.mapredfiles=true;
 --合并文件的大小：
-set hive.merge.size.per.task=256*1000*1000
+set hive.merge.size.per.task=256*1000*1000;
 ```
 
 ### 10、合理设置Map以及Reduce的数量
@@ -163,7 +172,7 @@ set mapred.reduce.tasks
 --每个reduce任务处理的数据量
 set hive.exec.reducers.bytes.per.reducer
 --每个任务最大的reduce数
-set hive.exec.reducers.max
+set hive.exec.reducers.max 
 ```
 
 ### 11、JVM重用
@@ -177,6 +186,5 @@ set hive.exec.reducers.max
 	设置开启之后，task插槽会一直占用资源，不论是否有task运行，直到所有的task即整个job全部执行完成时，才会释放所有的task插槽资源！
 */
 set mapred.job.reuse.jvm.num.tasks=n;--（n为task插槽个数）
-
-```
+``` 
 
